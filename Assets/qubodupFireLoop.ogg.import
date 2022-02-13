@@ -1,0 +1,15 @@
+[remap]
+
+importer="ogg_vorbis"
+type="AudioStreamOGGVorbis"
+path="res://.import/qubodupFireLoop.ogg-d0a8b099236f042004b0c145013d612d.oggstr"
+
+[deps]
+
+source_file="res://Assets/qubodupFireLoop.ogg"
+dest_files=[ "res://.import/qubodupFireLoop.ogg-d0a8b099236f042004b0c145013d612d.oggstr" ]
+
+[params]
+
+loop=true
+loop_offset=0

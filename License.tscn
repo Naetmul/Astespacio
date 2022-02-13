@@ -1,0 +1,86 @@
+[gd_scene load_steps=6 format=2]
+
+[ext_resource path="res://License.gd" type="Script" id=1]
+[ext_resource path="res://Assets/SwanseaBold-D0ox.ttf" type="DynamicFontData" id=2]
+[ext_resource path="res://Assets/Swansea-q3pd.ttf" type="DynamicFontData" id=3]
+
+[sub_resource type="DynamicFont" id=1]
+size = 18
+font_data = ExtResource( 2 )
+
+[sub_resource type="DynamicFont" id=2]
+extra_spacing_bottom = 10
+font_data = ExtResource( 3 )
+
+[node name="License" type="CanvasLayer"]
+script = ExtResource( 1 )
+
+[node name="LicenseLabel" type="RichTextLabel" parent="."]
+anchor_right = 1.0
+anchor_bottom = 1.0
+custom_fonts/bold_font = SubResource( 1 )
+custom_fonts/normal_font = SubResource( 2 )
+bbcode_enabled = true
+bbcode_text = "https://github.com/Naetmul/Astespacio
+[b]Naetmul[/b] (MIT)
+
+https://opengameart.org/content/asteroid-m
+[b]Cmdr G[/b] (CC BY 3.0)
+
+https://opengameart.org/content/pixel-spaceship
+[b]dsonyy[/b] (CC0)
+
+https://opengameart.org/content/space-parallax-background
+[b]scorcher24[/b] (CC0)
+
+https://opengameart.org/content/space-background-music
+[b]BonoboGames[/b] (CC BY 3.0)
+
+https://opengameart.org/content/sound-effects-sfx030
+[b]jalastram[/b] (CC BY 3.0)
+
+https://opengameart.org/content/fire-loop
+[b]qubodup[/b] (CC BY 3.0)
+
+https://opengameart.org/content/retro-sounds-0
+[b]artisticdude[/b] (CC0)
+
+https://www.fontspace.com/xolonium-font-f17644
+[b]Severin Meyer[/b] (OFL)
+
+https://www.fontspace.com/swansea-font-f5873
+[b]Roger White[/b] (Public Domain)"
+text = "https://github.com/Naetmul/Astespacio
+Naetmul (MIT)
+
+https://opengameart.org/content/asteroid-m
+Cmdr G (CC BY 3.0)
+
+https://opengameart.org/content/pixel-spaceship
+dsonyy (CC0)
+
+https://opengameart.org/content/space-parallax-background
+scorcher24 (CC0)
+
+https://opengameart.org/content/space-background-music
+BonoboGames (CC BY 3.0)
+
+https://opengameart.org/content/sound-effects-sfx030
+jalastram (CC BY 3.0)
+
+https://opengameart.org/content/fire-loop
+qubodup (CC BY 3.0)
+
+https://opengameart.org/content/retro-sounds-0
+artisticdude (CC0)
+
+https://www.fontspace.com/xolonium-font-f17644
+Severin Meyer (OFL)
+
+https://www.fontspace.com/swansea-font-f5873
+Roger White (Public Domain)"
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[connection signal="gui_input" from="LicenseLabel" to="." method="_on_LicenseLabel_gui_input"]

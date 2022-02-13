@@ -1,0 +1,15 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+path="res://.import/Space Background Music.mp3-f7da46d745b48e3cca35612b044b9e82.mp3str"
+
+[deps]
+
+source_file="res://Assets/Space Background Music.mp3"
+dest_files=[ "res://.import/Space Background Music.mp3-f7da46d745b48e3cca35612b044b9e82.mp3str" ]
+
+[params]
+
+loop=true
+loop_offset=0
